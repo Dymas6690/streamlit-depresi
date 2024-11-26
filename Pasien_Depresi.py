@@ -3,6 +3,7 @@ import streamlit as st
 
 depresi_model = pickle.load(open('depresi_model.sav', 'rb'))
 
+st.logo('depresi.png')
 st.title('Data Mining Prediksi Depresi')
 st.caption('Input angka 1-10')
 col1, col2 = st.columns(2)
