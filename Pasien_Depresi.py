@@ -12,9 +12,9 @@ with col1 :
 with col2 :
     WorkPressure = st.slider ('Input nilai Work Pressure/Tekanan Kerja')
 with col1 :
-    JobSatisfaction = st.text_slider ('Input nilai Job Satisfaction/Kepuasan Kerja')
+    JobSatisfaction = st.slider ('Input nilai Job Satisfaction/Kepuasan Kerja')
 with col2 :
-    Haveyoueverhadsuicidalthoughts = st.text_selectbox ('Input nilai Have you ever had suicidal thoughts?/Pernahkah Anda memiliki pikiran untuk bunuh diri?',['0','1'])
+    Haveyoueverhadsuicidalthoughts = st.selectbox ('Input nilai Have you ever had suicidal thoughts?/Pernahkah Anda memiliki pikiran untuk bunuh diri?',['0','1'])
 with col1 :
     WorkHours = st.number_input ('Input nilai Work Hours/Jam Kerja')
 with col2 :
