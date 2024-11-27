@@ -10,15 +10,15 @@ col1, col2 = st.columns(2)
 with col1 :
     Age = st.number_input ('Input nilai Age/Umur')
 with col2 :
-    WorkPressure = st.slider ('Input nilai Work Pressure/Tekanan Kerja')
+    WorkPressure = st.number_input ('Input nilai Work Pressure/Tekanan Kerja')
 with col1 :
-    JobSatisfaction = st.slider ('Input nilai Job Satisfaction/Kepuasan Kerja')
+    JobSatisfaction = st.number_input ('Input nilai Job Satisfaction/Kepuasan Kerja')
 with col2 :
-    Haveyoueverhadsuicidalthoughts = st.selectbox ('Input nilai Have you ever had suicidal thoughts?/Pernahkah Anda memiliki pikiran untuk bunuh diri?',['0','1'])
+    Haveyoueverhadsuicidalthoughts = st.number_input ('Input nilai Have you ever had suicidal thoughts?/Pernahkah Anda memiliki pikiran untuk bunuh diri?')
 with col1 :
     WorkHours = st.number_input ('Input nilai Work Hours/Jam Kerja')
 with col2 :
-    FinancialStress = st.slider ('Input nilai Financial Stress/Tekanan Keuangan')
+    FinancialStress = st.number_input ('Input nilai Financial Stress/Tekanan Keuangan')
 
 dep_diagnosis = ''
 
